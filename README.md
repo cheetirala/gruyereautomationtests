@@ -1,4 +1,4 @@
-# gruyereautomationtests
+# Gruyere automation tests 
 Gruyere automation tests using Serenity BDD and Cucumber
 
 Set of Browser based, Automated Acceptance Tests for Gruyere Application
