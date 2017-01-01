@@ -1,5 +1,5 @@
 Feature: Sign up on Gruyere
-  In order create snippets
+  In order to create snippets
   As a Gruyere user
   I want to create an account
 
