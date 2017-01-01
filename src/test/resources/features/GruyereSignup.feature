@@ -12,4 +12,4 @@ Feature: Sign up on Gruyere
     Then an account is created successfully
     Examples:
       | username | password |
-      | test_123     | test123  |
+      | test     | test123  |

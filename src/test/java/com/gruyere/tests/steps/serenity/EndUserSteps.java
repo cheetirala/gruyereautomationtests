@@ -8,8 +8,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class EndUserSteps  {
 
-    HomePage homePage;
-    SignUpPage signUpPage;
+    private HomePage homePage;
+    private SignUpPage signUpPage;
 
     @Step
     public void is_the_home_page() {
@@ -23,7 +23,8 @@ public class EndUserSteps  {
 
     @Step
     public void enter_username(String username) {
-       signUpPage.enter_username(username);
+        double random = Math.random() * 1000 + 1;
+        signUpPage.enter_username(username + random);
     }
 
     @Step
