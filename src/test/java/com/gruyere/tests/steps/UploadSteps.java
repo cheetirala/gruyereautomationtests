@@ -21,7 +21,7 @@ public class UploadSteps {
 
     @Then("^(.*) message should be displayed$")
     public void upload_Complete_message_should_be_displayed(String uploadMessage) throws Throwable {
-userSteps.should_display_upload_complete_message(uploadMessage);
+        userSteps.should_display_upload_complete_message(uploadMessage);
     }
 
 }

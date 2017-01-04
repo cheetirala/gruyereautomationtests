@@ -1,17 +1,11 @@
 # Gruyere automation tests 
-Gruyere automation tests using Serenity BDD and Cucumber
+Gruyere automation tests using Serenity BDD, Selenium Webdriver and Cucumber
 
 Set of Browser based, Automated Acceptance Tests for Gruyere Application
 
 Install Maven
 
 Maven is used to manage dependencies, build the project and run the tests.
-
-Compile The Code
-
-To verify that the project compiles and all dependencies are downloaded, run:
-
-mvn clean compile
 
 Run the Tests
 
