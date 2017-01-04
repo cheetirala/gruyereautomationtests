@@ -5,8 +5,8 @@ Feature: Create Snippet
 
   Scenario: create a snippet on Gruyere
     Given I navigate to Gruyere home page
-    When I logged into Gruyere with my login credentials
+    When I log into Gruyere with valid credentials test1234 test1234
     And I would like to create a new snippet
-    And I enter snippet details
-    And submit the snippet
-    Then a new snippet should be created
+    And I enter snippet details mozarella
+    And I submit the snippet details
+    Then a new snippet mozarella should be created
